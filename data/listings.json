@@ -1289,8 +1289,14 @@
       "manifestRowsShown": 6
     }
   ],
-  "refreshStatus": "ok-browser-session",
-  "refreshNote": "Restored from logged-in BStock detail pages. Listing media is from BStock; item image matches use verified prior Costco/SameDay item-number cache when available.",
+  "refreshStatus": "blocked-preserved",
+  "refreshNote": "BStock/Cloudflare returned a verification page, so the previous listing snapshot was preserved instead of being erased.",
   "manifestCoverage": "BStock preview rows are included where the full manifest endpoint is not externally available.",
-  "refreshErrors": []
+  "refreshErrors": [],
+  "lastRefreshAttempt": "2026-05-27T20:38:20.861Z",
+  "refreshDiagnostics": {
+    "url": "https://bstock.com/all-auctions?savedSearchId=696e3b9488671096827bcdd8",
+    "title": "Just a moment...",
+    "bodySnippet": "bstock.comPerforming security verificationThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.Verification successful. Waiting for bstock.com to respond<div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div>(function(){window._cf_chl_opt = {cFPWv: 'b',cH: '9qiS_wUv2fkMtkfgoa39lis4ZnRUI1vnoRqCZcepUn8-1779914288-1.2.1.1-kYwr7ZRPT5yZLp86FzzGkVu3jZsjF9ySSrNHuV8PuDO4P"
+  }
 }
